@@ -3,19 +3,15 @@
     <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
        <style>
     #more_treat{
 		color: white;
-    /* margin-left: 431px; */
+    margin-left: 431px;
 	}
 	@media only screen and (max-width: 600px) {
 	    div.carousel-caption
 	    {
-	        /* margin-top: 80px; */
-	        display: none;
+	        margin-top: 80px;
 	    }
 	}
 	@media (min-width: 767px) {
@@ -30,9 +26,9 @@
 		}
 		div.carousel-caption
 	    {
-	        /*margin-top: 80px;*/
 	        display: none;
 	    }
+		
 	}
     .faq {
 	padding: 60px 0;
@@ -115,7 +111,7 @@
 			height: 477px;
 		    display: block;
 		    position: relative;
-		    /* padding: 30px 20px; */
+		    padding: 30px 20px;
 		    background: #fff;
 		    border: 1px solid rgba(0,0,0,.03);
 		    border-radius: 5px;
@@ -136,7 +132,6 @@
 		}
 		.carousel-testimonial .item {
 			padding: 30px 10px;
-			background-color: #fff;
 		}
 		.quote {
 			position: absolute;
@@ -171,140 +166,38 @@
 		    font-size: 40px;
 		    width: 25px;
 		    height: 25px;
-		    vertical-align: 0px;
+		    /* vertical-align: 0px; */
 		    line-height: 16px;
 		}
 		.carousel-testimonial .owl-nav button.owl-next.disabled, 
 		.carousel-testimonial .owl-nav button.owl-prev.disabled {
 			opacity: 0.5;
-		}   
-		
-		/* Image slider */
-		* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  /* bottom: 8px; */
-  width: 100%;
-  text-align: justify;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-.slider-width
-{
-	min-width: 100%;
-}
+		}        
        </style> 
 	   <meta name="google-site-verification" content="Vd76BE2zsZe1q08_D4WoAuawHkyZXn6eVCHeo_R2H8Q" />
-	   <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
 	 <?php include('includes/script.php'); ?>
-		 <?php include('includes/header.php'); ?><br>
-
-		 <!-- slider area -->
-		 <div class="slideshow-container slider-width">
-
-<div class="mySlides fade">
-  <!-- <div class="numbertext">1 / 3</div> -->
-  <!-- <div class="w-100"> -->
-  <img src="img/Banner-1.jpg" style="width:100%">
-  <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption d-none d-md-block">
+		 <?php include('includes/header.php'); ?>
+		
+		<!-- Slider Area -->
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000" style="width:100%;margin-top:20px">
+          <div style="height:500px; display: block;" class="carousel-inner" style="width:100%; position:absolute;">
+              <div class="carousel-item mobile screen active" style="width:100%;">
+                <img src="img/Banner-1.jpg" alt="..." class="slider" style="width:100%;">
+                    <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption d-none d-md-block">
                         <h4><span>Neuron Pain & Spine Clinic </span> Medical is One of The  <span>Best Pain Clinics in India</span></h4>
 									<p> <span style="font-weight:bold">Helping patients</span> by providing the latest <span style="font-weight:bold">non-surgical pain treatment</span> services in India. </p>
-									<div class="button d-flex"><br>
+									<div class="button"><br>
 										<a href="https://api.whatsapp.com/send?phone=916371966229&text=Hello%2C%20I%20want%20to%20Book%20an%20Appointment%20with%20%20Dr%20Rajendra%20Sahoo" class="btn">Get Appointment</a>
-										<a href="contact.php" class="btn primary ml-2">Learn More</a>
+										<a href="contact.php" class="btn primary">Learn More</a>
 									</div>
                     </div>
-  <!-- <div class="text">Caption Text</div> -->
-<!-- </div> -->
-</div>
-
-<div class="mySlides fade">
-  <!-- <div class="numbertext">2 / 3</div> -->
-  <img src="img/slider2.jpg" style="width:100%">
-  <div class="carousel-caption d-none d-md-block" style="margin-bottom:80px;">
+            </div>
+            
+            <div class="carousel-item mobile screen" style="width:100%">
+                <img src="img/slider2.jpg" alt="..." style="width:100%;">
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom:80px;">
                         <h1>Why Choose <span>NPSC?</span></h1>
 									<p>
 									<ul>
@@ -318,72 +211,11 @@ img {vertical-align: middle;}
 										<a href="about.php" class="btn primary">About Us</a>
 									</div>
                     </div>
-  <!-- <div class="text">Caption Two</div> -->
-</div>
-
-<div class="mySlides fade">
-  <!-- <div class="numbertext">3 / 3</div> -->
-  <img src="img/Banner-2.jpg" style="width:100%">
-  <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption d-none d-md-block">
-                        <h3 style="color:black;">Center of Excellence in Musculoskeletal Pain & Regenerative Therapy For Pain</h3>
-									<p style="color:black;"> <b>We Offer The Best Pain Management Services to Improve Your Quality of Life & Help You Live a Joyous Life</b> </p>
-									<div class="button d-flex"><br>
-										<a href="https://api.whatsapp.com/send?phone=916371966229&text=Hello%2C%20I%20want%20to%20Book%20an%20Appointment%20with%20%20Dr%20Rajendra%20Sahoo" class="btn">Get Appointment</a>
-										<a href="contact.php" class="btn primary ml-2">Conatct Now</a>
-									</div>
-                    </div>
-  <!-- <div class="text">Caption Three</div> -->
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<br>
-
-
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-		 
-		 <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
-          <div style="height:500px; display: block;" class="carousel-inner" style="width:100%; position:absolute;">
-    <div class="carousel-item mobile screen active">
-      <img class="d-block w-100" src="img/Banner-1.jpg" alt="..." class="slider" style="width:100%;">
-      <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption">
-                       <h4><span>Neuron Pain & Spine Clinic </span> Medical is One of The  <span>Best Pain Clinics in India</span></h4>
-								<p> <span style="font-weight:bold">Helping patients</span> by providing the latest <span style="font-weight:bold">non-surgical pain treatment</span> services in India. </p>
-									<div class="button"><br>
-									<a href="https://api.whatsapp.com/send?phone=916371966229&text=Hello%2C%20I%20want%20to%20Book%20an%20Appointment%20with%20%20Dr%20Rajendra%20Sahoo" class="btn">Get Appointment</a>
-									<a href="contact.php" class="btn primary">Learn More</a>
-								</div>
-                 </div>
-    </div>
-    
-    <div class="carousel-item mobile screen">
-      <img class="d-block w-100" src="img/slider2.jpg" alt="..." style="width:100%;">
-      <div class="carousel-caption" style="margin-bottom:80px;">
-                     <h1>Why Choose <span>NPSC?</span></h1>
-									<p>
-									<ul>
-                                    <li style="color:black;">- We have specialist doctors trained in USA & Canada</li>
-									 <li style="color:black;">- Equipped with the latest technology</li>
-									 <li style="color:black;">- Availability of Ultrasound'</li>
-									 <li style="color:black;">- Forefront in Skills, Knowledge & Innovation</li>
-									</ul><br>	
-									<div class="button">
-										<a href="https://api.whatsapp.com/send?phone=916371966229&text=Hello%2C%20I%20want%20to%20Book%20an%20Appointment%20with%20%20Dr%20Rajendra%20Sahoo" class="btn">Get Appointment</a>
-										<a href="about.php" class="btn primary">About Us</a>
-									</div>
-                   </div>
-    </div>
-    <div class="carousel-item mobile screen">
-      <img class="d-block w-100" src="img/Banner-2.jpg" alt="..." style="width:100%;">
-      <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption">
+            </div>
+            
+            <div class="carousel-item mobile screen" style="width:100%">
+                <img src="img/Banner-2.jpg" alt="..." style="width:100%;">
+                    <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption d-none d-md-block">
                         <h3 style="color:black;">Center of Excellence in Musculoskeletal Pain & Regenerative Therapy For Pain</h3>
 									<p style="color:black;"> <b>We Offer The Best Pain Management Services to Improve Your Quality of Life & Help You Live a Joyous Life</b> </p>
 									<div class="button"><br>
@@ -391,77 +223,21 @@ img {vertical-align: middle;}
 										<a href="contact.php" class="btn primary">Conatct Now</a>
 									</div>
                     </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> -->
-		
-		<!-- Slider Area  -->
-		<!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000" style="width:100%;margin-top:20px">
-         <div style="height:500px; display: block;" class="carousel-inner" style="width:100%; position:absolute;">
-             <div class="carousel-item mobile screen active" style="width:100%;">
-               <img src="img/Banner-1.jpg" alt="..." class="slider" style="width:100%;">
-                   <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption d-none d-md-block">
-                       <h4><span>Neuron Pain & Spine Clinic </span> Medical is One of The  <span>Best Pain Clinics in India</span></h4>
-									<p> <span style="font-weight:bold">Helping patients</span> by providing the latest <span style="font-weight:bold">non-surgical pain treatment</span> services in India. </p>
-									<div class="button"><br>
-										<a href="https://api.whatsapp.com/send?phone=916371966229&text=Hello%2C%20I%20want%20to%20Book%20an%20Appointment%20with%20%20Dr%20Rajendra%20Sahoo" class="btn">Get Appointment</a>
-										<a href="contact.php" class="btn primary">Learn More</a>
-									</div>
-                   </div>
-           </div>
-            
-           <div class="carousel-item mobile screen" style="width:100%">
-               <img src="img/slider2.jpg" alt="..." style="width:100%;">
-                   <div class="carousel-caption d-none d-md-block" style="margin-bottom:80px;">
-                       <h1>Why Choose <span>NPSC?</span></h1>
-									<p>
-									<ul>
-                                    <li style="color:black;">- We have specialist doctors trained in USA & Canada</li>
-									 <li style="color:black;">- Equipped with the latest technology</li>
-									 <li style="color:black;">- Availability of Ultrasound'</li>
-									 <li style="color:black;">- Forefront in Skills, Knowledge & Innovation</li>
-									</ul><br>	
-									<div class="button">
-										<a href="https://api.whatsapp.com/send?phone=916371966229&text=Hello%2C%20I%20want%20to%20Book%20an%20Appointment%20with%20%20Dr%20Rajendra%20Sahoo" class="btn">Get Appointment</a>
-										<a href="about.php" class="btn primary">About Us</a>
-									</div>
-                   </div>
-           </div>
-            
-           <div class="carousel-item mobile screen" style="width:100%">
-               <img src="img/Banner-2.jpg" alt="..." style="width:100%;">
-                   <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption d-none d-md-block">
-                       <h3 style="color:black;">Center of Excellence in Musculoskeletal Pain & Regenerative Therapy For Pain</h3>
-									<p style="color:black;"> <b>We Offer The Best Pain Management Services to Improve Your Quality of Life & Help You Live a Joyous Life</b> </p>
-									<div class="button"><br>
-										<a href="https://api.whatsapp.com/send?phone=916371966229&text=Hello%2C%20I%20want%20to%20Book%20an%20Appointment%20with%20%20Dr%20Rajendra%20Sahoo" class="btn">Get Appointment</a>
-										<a href="contact.php" class="btn primary">Conatct Now</a>
-									</div>
-                   </div>
-           </div>
-         </div>
-         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="sr-only">Next</span>
-         </a>
-       </div> -->
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
 		
 		<!-- End Single Slider -->
-			</div>
-		</section>
-		 <!-- End Slider Area -->
+			
+		<!--/ End Slider Area -->
 		
 		<!-- Start Why choose -->
 		<section class="why-choose section" >
@@ -670,9 +446,7 @@ offering the best and latest treatment modalities as per the global best practic
 						</div>
 						<!-- End Single Service -->
 					</div>
-					<div class="col-md-12 text-center">
-						<a href="condition-we-treat.php" id="more_treat" class="btn">Find More Treatments&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></a>
-  					</div>
+					<a href="condition-we-treat.php" id="more_treat" class="btn  ">Find More Treatments&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></a>
 				</div>
 			</div>
 		</section>
@@ -1086,27 +860,5 @@ $('.carousel-testimonial').owlCarousel({
     }
 })
 		</script>
-		<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
     </body>
 </html>

@@ -20,7 +20,7 @@ specialist Dr. Rajendra Sahoo who had vast experience in practicing pain over on
 							<div class="single-footer f-link">
 							<h4 style="color:white;">Quick Links</h4>
 								<div class="row">
-									<div class="col-lg-6 col-md-6 col-12">
+									<div class="col-lg-9 col-md-6 col-12">
 										<ul>
 											<li><a href="https://neuronpainclinic.com/">Home</a></li>
 											<li><a href="about.php">About</a></li>

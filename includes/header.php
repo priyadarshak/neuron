@@ -52,7 +52,7 @@
 										
 											<li><a href="gallery.php">Gallery <i></i></a>
 											</li>
-											<li><a href="blogs">Blog <i></i></a>
+											<li><a href="blogs" target="_blank">Blog <i></i></a>
 											</li>
 											<li><a href="training.php">Training</a></li>
 											<li><a href="contact.php">Contact</a></li>
