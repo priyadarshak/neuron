@@ -321,7 +321,7 @@ img {vertical-align: middle;}
   <!-- <div class="text">Caption Two</div> -->
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides">
   <!-- <div class="numbertext">3 / 3</div> -->
   <img src="img/Banner-2.jpg" style="width:100%">
   <div style="margin-right:40%;margin-bottom:80px;" class="carousel-caption d-none d-md-block">
@@ -506,8 +506,9 @@ offering the best and latest treatment modalities as per the global best practic
 						<!-- Start Choose Rights -->
 						<div class="chose-right">
 							<div class="video-image">
-								<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" height="315px" src="https://www.youtube.com/embed/76sja7GGzMg" allowfullscreen></iframe>
+								<!-- <div class="embed-responsive embed-responsive-16by9"> -->
+									<div>
+  <iframe class="embed-responsive-item" width="600px" height="315px" src="https://www.youtube.com/embed/76sja7GGzMg" allowfullscreen></iframe>
 </div>
 								</div>
 						</div>
@@ -1104,7 +1105,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 </script>
 

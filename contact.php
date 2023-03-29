@@ -4,6 +4,7 @@
 		 <title>Best spine doctor in bhubaneswar - Neuronpainclinic.com</title>
         <meta name="keywords" content="Site keywords here">
 		<meta name="description" content="Neuron pain clinic is present at Bhubaneswar Odisha. Visit us to get a proper diagnosis of your back and neck pain to enable you to get appropriate treatment. Say yes to a Perfect diagnosis.">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	</head>
     <body>
 	<?php include('includes/script.php'); ?>
@@ -17,7 +18,7 @@
 						<div class="col-12">
 							<h2>Contact Us</h2>
 							<ul class="bread-list">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="https://neuronpainclinic.com/">Home</a></li>
 								<li><i class="icofont-simple-right"></i></li>
 								<li class="active">Contact Us</li>
 							</ul>
@@ -32,7 +33,7 @@
 		 <div class="container">
 				<div class="inner">
 					<div class="row"> 
-						<div class="col-lg-6" >
+						<!-- <div class="col-lg-6" >
 					<div class="contact-us-form">
 						<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=SimpleeKare%20Health,%20N2%2019,%20N2,%20Block%20N2,%20IRC%20Village,%20Nayapalli,%20Bhubaneswar,%20Odisha%20751015&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:600px;}</style><a href="https://www.embedgooglemap.net">insert google map into website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style></div></div>
 							<br>
@@ -40,13 +41,13 @@
                      <address style="text-align:center">N2 19, N2, Block N2, IRC Village, Nayapalli, <br>Bhubaneswar, Odisha 751015 <br>Timing : Mon - Sat: 5PM - 7PM</address>
 						</div>
                      
-					</div>
+					</div> -->
 					  <div class="col-lg-6" >
 					  <div class="contact-us-form">
-					  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=KIMS%20HOSPITAL%20,Patia,%20Pain%20Clinic,bhubaneswar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map in wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style></div></div>
+					  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.5517248064648!2d85.80797282915191!3d20.291701457025077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19083290000001%3A0x1d13fd5f93728e4f!2sNEURON%20PAIN%20%26%20SPINE%20CLINIC!5e0!3m2!1sen!2sin!4v1679908824064!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map in wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style></div></div>
 						<br>
-							<h3 style="text-align:center">KIMS HOSPITAL Location :</h3>
-                     <address style="text-align:center">KIMS, Patia, Pain Clinic <br> Room No. 133 (1st-floor Superspecialty OPD)<br>Timing: 9 am to 2 pm Monday to Friday
+							<h3 style="text-align:center">Neuron Pain Clinic Location :</h3>
+                     <address style="text-align:center">SimpleeKare - N2 19, N2, Block N2, IRC Village, Nayapalli, <br>Bhubaneswar, Odisha 751015 <br>Timing : Mon - Sat: 5PM - 7PM</address>
 </address>
 						</div>
 					</div>
