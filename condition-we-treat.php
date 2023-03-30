@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
     <head>
           <title>Neuron pain clinic Offer Different Departments To Diagnose Your Diseases</title>
+          <link rel="icon" type="image/x-icon" href="img/neuron-favicon.jpeg">
         <meta name="keywords" content="Site keywords here">
 		<meta name="description" content="Find spine doctor at our nearest centre & cure back pain without spine surgery now! - Neuron pain clinic">
     <style>

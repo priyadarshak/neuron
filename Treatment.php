@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
+    <link rel="icon" type="image/x-icon" href="img/neuron-favicon.jpeg">
     <style>
     .faq {
 	padding: 60px 0;

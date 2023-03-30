@@ -2,6 +2,7 @@
 <html  lang="zxx">
     <head>
 		 <title>Best spine doctor in bhubaneswar - Neuronpainclinic.com</title>
+		 <link rel="icon" type="image/x-icon" href="img/neuron-favicon.jpeg">
         <meta name="keywords" content="Site keywords here">
 		<meta name="description" content="Neuron pain clinic is present at Bhubaneswar Odisha. Visit us to get a proper diagnosis of your back and neck pain to enable you to get appropriate treatment. Say yes to a Perfect diagnosis.">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">

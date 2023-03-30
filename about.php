@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
     <head>
          <title>About Us - Neuron pain clinic</title>
+		 <link rel="icon" type="image/x-icon" href="img/neuron-favicon.jpeg">
         <meta name="keywords" content="Site keywords here">
 		<meta name="description" content="Neuron pain clinic Of Odisha is a center of excellence in Spine Pain, Back Pain, Neck Pain, Sciatica, Herniated disc, lower back and abdominal pain Treatment in Odisha">
     <style>

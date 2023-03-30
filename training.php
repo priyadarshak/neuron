@@ -2,6 +2,7 @@
 <html class="no-js" lang="zxx">
     <head>
          <title>Get training about pain medicine & Certificate course at neuronpainclinic</title>
+		 <link rel="icon" type="image/x-icon" href="img/neuron-favicon.jpeg">
         <meta name="keywords" content="Site keywords here">
 		<meta name="description" content="Neuron pain clinic focusses an exact diagnosis & find roof cause of pain & provide specific customized treatment, including latest non surgical interventional pain management options with an aim for better quality of life.">
 	</head>
